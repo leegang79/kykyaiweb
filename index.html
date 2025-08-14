@@ -46,26 +46,31 @@
 
     <!-- Banner -->
     <section id="banner">
-      <div class="video-box">
-        <!--<video id="myvideo" class="video-background" preload="auto" loop playsinline tabindex="-1" muted="muted" src=""
-          x5-video-player-type="h5" autoplay>
-        </video>-->
-        <iframe class="video-background" src="https://human.kykyai.com:8016/?autoplay=1"></iframe>
+      <div class="video-box" style="position:relative;">
+        <div id="iframe-placeholder-wrapper" style="position:relative;">
+          <img id="iframe-placeholder" src="https://kykyai-web.oss-cn-hangzhou.aliyuncs.com/owe/introduce.mp4.jpg" alt="视频预览" style="width:100%;border-radius:1em;cursor:pointer;object-fit:cover;">
+          <iframe id="video-iframe" class="video-background" src="" style="display:none;width:100%;height:100%;border-radius:1em;"></iframe>
+        </div>
         <div class="inner">
           <h2>快语科技</h2>
-          <!-- <p>Another fine responsive<br />
-            site template freebie<br />
-            crafted by <a href="https://www.kykyai.com">快 语</a>.
-          </p> -->
-          <!-- <ul class="actions special">
-								<li><a href="#" class="button primary">ACTIVATE</a></li>
-							</ul> -->
         </div>
         <div class="lefttitle1" id="special1" style="top: 20%;">智能化内容生成</div>
         <div class="lefttitle2" id="special2" style="top: 20%;">虚拟人实时交互</div>
-		
         <img src="http://kykyai-web.oss-cn-hangzhou.aliyuncs.com/owe/xnr-mic.png" class="xnr-mic" alt="">
       </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var placeholder = document.getElementById('iframe-placeholder');
+          var iframe = document.getElementById('video-iframe');
+          if (placeholder && iframe) {
+            placeholder.addEventListener('click', function() {
+              placeholder.style.display = 'none';
+              iframe.style.display = 'block';
+              iframe.src = 'https://human.kykyai.com:8016/?autoplay=1';
+            });
+          }
+        });
+      </script>
       <a href="#introduce" class="more scrolly">
         了解更多
       </a>
