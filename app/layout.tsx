@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     apple: [
       { url: '/ico.png', sizes: '180x180', type: 'image/png' },
     ],
+  }
 }
 
 export default function RootLayout({
