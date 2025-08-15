@@ -51,7 +51,7 @@ export function ContactFormSection() {
                 <div className="p-8 pt-0">
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
+                      <div className="text-gray-700">
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                           {t("contact.form.name")} {t("contact.form.required")}
                         </label>
@@ -66,7 +66,7 @@ export function ContactFormSection() {
                           placeholder={t("contact.form.name_placeholder")}
                         />
                       </div>
-                      <div>
+                      <div className="text-gray-700">
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                           {t("contact.form.email")} {t("contact.form.required")}
                         </label>
@@ -84,7 +84,7 @@ export function ContactFormSection() {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
+                      <div className="text-gray-700">
                         <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
                           {t("contact.form.company")}
                         </label>
@@ -98,7 +98,7 @@ export function ContactFormSection() {
                           placeholder={t("contact.form.company_placeholder")}
                         />
                       </div>
-                      <div>
+                      <div className="text-gray-700">
                         <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                           {t("contact.form.phone")}
                         </label>
@@ -114,7 +114,7 @@ export function ContactFormSection() {
                       </div>
                     </div>
 
-                    <div>
+                    <div className="text-gray-700">
                       <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                         {t("contact.form.subject")} {t("contact.form.required")}
                       </label>
@@ -130,7 +130,7 @@ export function ContactFormSection() {
                       />
                     </div>
 
-                    <div>
+                    <div className="text-gray-700">
                       <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                         {t("contact.form.message")} {t("contact.form.required")}
                       </label>

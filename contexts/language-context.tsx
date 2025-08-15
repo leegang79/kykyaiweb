@@ -108,6 +108,13 @@ const translations = {
 
     "products.reading.title": '"21世纪智能、读书"产品',
     "products.reading.description": "智能阅读辅助系统，提升学习体验。",
+    "products.reading.recommendation_badge": "智能推荐",
+    "products.reading.knowledge_badge": "知识图谱",
+    "products.reading.personalized_badge": "个性化学习",
+    "products.reading.analysis_badge": "阅读分析",
+    "products.reading.experience_btn": "立即体验",
+    "products.reading.qr_text": "微信扫码访问智能读书吧",
+    "products.reading.qr_placeholder": "二维码",
 
     // Products Grid Section
     "products.grid.tour_guide_title": "AI导游讲解系统",
@@ -157,6 +164,19 @@ const translations = {
     "products.lushi.demo_btn": "观看演示",
     "products.lushi.media_title": "律时项目被各大媒体报道",
 
+    // Smart Reading Product
+    "products.reading.smart_badge": "智能阅读",
+    "products.reading.title": '"21世纪智能读书"产品 - AI驱动的智能阅读体验',
+    "products.reading.description":
+      '人工智能技术在教育领域的应用正引起第四次教育革命，尤其是最近的ChatGPT、Stable Diffusion等模型的发布与应用所带来的改变！快语科技作为这次革命的践行者，我们应用人工智能技术，发布了"21世纪智能读书"平台。\n\n"21世纪智能读书"平台所选取的书籍均来自教育部基础教育课程教材发展中心发布的《中小学生阅读指导目录（2020 年版）》中的300本中小学生推荐阅读书目。优质的阅读材料保障了孩子开卷有益的阅读质量。\n深圳快语科技有限公司与全国最大的少儿出版社——21世纪出版社集团合作的智能阅读平台产品"21世纪智能读书"小程序已于2022年10月上线微信平台，目前大量图书即将上架，出版社预计，二季度读者用户数可以达到10万。 智能阅读平台可以广泛应用于少儿读物出版行业，为少儿阅读带来全新的体验。',
+    "products.reading.recommendation_badge": "智能推荐",
+    "products.reading.knowledge_badge": "知识图谱",
+    "products.reading.personalized_badge": "个性化学习",
+    "products.reading.analysis_badge": "阅读分析",
+    "products.reading.experience_btn": "立即体验",
+    "products.reading.qr_text": "微信扫码访问智能读书吧",
+    "products.reading.qr_placeholder": "二维码",
+
     // Customers Section
     "customers.hero.badge": "优质客户",
     "customers.hero.title1": "服务全球",
@@ -195,6 +215,10 @@ const translations = {
     "locations.jian_jiangxi": "江西吉安",
 
     // Partners Section
+    "partners.hero.badge": "战略合作",
+    "partners.hero.title1": "合作伙伴",
+    "partners.hero.title2": "共赢未来",
+    "partners.hero.description": "与行业领先企业建立深度合作关系，共同推动人工智能技术的创新与应用",
     "partners.categories_title": "合作伙伴类型",
     "partners.tech_partners_title": "技术合作伙伴",
     "partners.tech_partners_description": "与AI芯片、云计算、大数据等技术厂商深度合作",
@@ -224,7 +248,7 @@ const translations = {
     "partners.cta_title": "成为我们的合作伙伴",
     "partners.cta_description": "如果您有意与我们建立合作关系，欢迎联系我们探讨合作机会",
     "partners.cta_button": "联系合作",
-    
+
     // Partner types
     "partners.cloud_service_provider": "云计算服务商",
     "partners.infrastructure_cooperation": "基础设施合作",
@@ -240,7 +264,7 @@ const translations = {
     "footer.icp": "粤ICP备2022083001号-1",
     "footer.phone": "13564339979 陶女士",
     "footer.email": "taoyangyang@kykyai.com",
-    "footer.languageLabel": "语言 / Language:",
+    "footer.languageLabel": "语言",
     "footer.addresses.title": "办公地址",
     "footer.addresses.shenzhen": "深圳总部",
     "footer.addresses.shenzhenDetail": "深圳市龙岗区龙城街道黄阁坑社区龙城工业园1号",
@@ -282,6 +306,10 @@ const translations = {
     "common.view_details": "查看详情",
 
     // Contact Form
+    "contact.hero.badge": "联系我们",
+    "contact.hero.title1": "联系我们",
+    "contact.hero.title2": "开启合作",
+    "contact.hero.description": "我们期待与您的交流，无论是产品咨询、技术合作还是商务洽谈，都欢迎与我们联系",
     "contact.form.title": "联系我们",
     "contact.form.subtitle": "请填写以下表单，我们会在24小时内回复您。",
     "contact.form.name": "姓名",
@@ -496,8 +524,18 @@ const translations = {
     "products.lushi.demo_btn": "Watch Demo",
     "products.lushi.media_title": "Lushi Project Media Coverage",
 
-    "products.reading.title": '"21st Century Smart Reading" Product',
-    "products.reading.description": "Intelligent reading assistance system enhancing learning experience.",
+    // Smart Reading Product
+    "products.reading.smart_badge": "Smart Reading",
+    "products.reading.title": '"21st Century Smart Reading" Product - AI-Driven Intelligent Reading Experience',
+    "products.reading.description":
+      'The application of artificial intelligence technology in education is causing the fourth educational revolution, especially the changes brought by the recent release and application of models like ChatGPT and Stable Diffusion! As a practitioner of this revolution, KykyAI applies artificial intelligence technology and has released the "21st Century Smart Reading" platform.\n\nThe books selected by the "21st Century Smart Reading" platform all come from the 300 recommended reading books for primary and secondary school students in the "Primary and Secondary School Students Reading Guidance Catalog (2020 Edition)" published by the Ministry of Education\'s Basic Education Curriculum and Textbook Development Center. High-quality reading materials ensure the quality of children\'s beneficial reading.\nShenzhen KykyAI Technology Co., Ltd. cooperated with the largest children\'s publishing house in China - 21st Century Publishing Group to launch the intelligent reading platform product "21st Century Smart Reading" mini-program on the WeChat platform in October 2022. Currently, a large number of books are about to be launched. The publishing house expects that the number of reader users can reach 100,000 in the second quarter. The intelligent reading platform can be widely applied in the children\'s book publishing industry, bringing a brand new experience to children\'s reading.',
+    "products.reading.recommendation_badge": "Smart Recommendation",
+    "products.reading.knowledge_badge": "Knowledge Graph",
+    "products.reading.personalized_badge": "Personalized Learning",
+    "products.reading.analysis_badge": "Reading Analysis",
+    "products.reading.experience_btn": "Experience Now",
+    "products.reading.qr_text": "Scan WeChat QR Code to Access Smart Reading",
+    "products.reading.qr_placeholder": "QR Code",
 
     // Products Grid Section
     "products.grid.tour_guide_title": "AI Tour Guide Systems",
