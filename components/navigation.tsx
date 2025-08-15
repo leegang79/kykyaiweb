@@ -50,7 +50,11 @@ export function Navigation() {
             <div className="relative h-[42] w-[170]">
               <Image
                 id="main-logo"
-                src="https://www.kykyai.com/images/logo.png"
+                src={
+                  language === "en"
+                    ? "https://www.kykyai.com/images/logo-en.png"
+                    : "https://www.kykyai.com/images/logo.png"
+                }
                 alt="KykyAI Logo"
                 width={170}
                 height={42}
@@ -139,7 +143,7 @@ export function Navigation() {
 
               <div className="px-3 py-2 border-t border-gray-200 mt-2">
                 <div className="flex items-center space-x-4">
-                  <span className="text-sm text-gray-600">语言 / Language:</span>
+                  <span className="text-sm text-gray-600">{t("footer.languageLabel")}</span>
                   <button
                     onClick={() => setLanguage("zh")}
                     className={`px-2 py-1 text-sm font-medium rounded transition-colors ${

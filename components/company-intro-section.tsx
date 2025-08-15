@@ -57,28 +57,28 @@ export function CompanyIntroSection() {
 
           {/* Company Values */}
           <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-8 lg:p-12 mb-16">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">核心价值</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">{t("company.values.title")}</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Sparkles className="h-8 w-8 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">创新驱动</h4>
-                <p className="text-gray-600">持续探索AI技术前沿，为用户带来突破性的智能体验</p>
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">{t("company.values.innovation_title")}</h4>
+                <p className="text-gray-600">{t("company.values.innovation_description")}</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">用户至上</h4>
-                <p className="text-gray-600">以用户需求为中心，提供简单易用的智能化解决方案</p>
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">{t("company.values.user_first_title")}</h4>
+                <p className="text-gray-600">{t("company.values.user_first_description")}</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Building2 className="h-8 w-8 text-white" />
                 </div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">品质保证</h4>
-                <p className="text-gray-600">严格的质量标准，确保每一个产品都达到行业领先水平</p>
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">{t("company.values.quality_title")}</h4>
+                <p className="text-gray-600">{t("company.values.quality_description")}</p>
               </div>
             </div>
           </div>
@@ -86,22 +86,20 @@ export function CompanyIntroSection() {
           {/* Data Sets Section */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 lg:p-12">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">{t("company.datasets.title")}</h3>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              进行模型训练和微调的数据集方面，除了汇集公开数据集外，快语在多年研究的基础上，针对人工智能应用软件产品的应用场景不同，分别构建了多个专业数据集：
-            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mb-8">{t("company.datasets.description")}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="flex items-center space-x-3 bg-gradient-to-r from-blue-50 to-blue-100 p-4 rounded-lg border border-blue-200">
                 <BookOpen className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-700 font-medium">儿童图书数据集</span>
+                <span className="text-gray-700 font-medium">{t("company.datasets.children_books")}</span>
               </div>
               <div className="flex items-center space-x-3 bg-gradient-to-r from-purple-50 to-purple-100 p-4 rounded-lg border border-purple-200">
                 <Users className="h-5 w-5 text-purple-600" />
-                <span className="text-gray-700 font-medium">儿童故事数据集</span>
+                <span className="text-gray-700 font-medium">{t("company.datasets.children_stories")}</span>
               </div>
               <div className="flex items-center space-x-3 bg-gradient-to-r from-pink-50 to-pink-100 p-4 rounded-lg border border-pink-200">
                 <Heart className="h-5 w-5 text-pink-600" />
-                <span className="text-gray-700 font-medium">心理咨询对话</span>
+                <span className="text-gray-700 font-medium">{t("company.datasets.psychology_consultation")}</span>
               </div>
               <div className="flex items-center space-x-3 bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg border border-green-200">
                 <Landmark className="h-5 w-5 text-green-600" />

@@ -205,3 +205,21 @@ html {
 .animate-delay-400 {
   animation-delay: 0.4s;
 }
+
+/* Adding marquee animation for media coverage section */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

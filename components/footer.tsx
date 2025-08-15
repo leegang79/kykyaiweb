@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useLanguage } from "@/contexts/language-context"
 
 export function Footer() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <footer id="main-footer" className="bg-gray-900 text-white py-16">
@@ -17,7 +17,11 @@ export function Footer() {
               <div className="relative w-[170] h-[42] bg-white border-0 px-[5px] py-[5x] pt-2.5 pb-2 pl-2 pr-2 rounded-sm">
                 <Image
                   id="footer-logo"
-                  src="https://www.kykyai.com/images/logo.png"
+                  src={
+                    language === "en"
+                      ? "https://www.kykyai.com/images/logo-en.png"
+                      : "https://www.kykyai.com/images/logo.png"
+                  }
                   alt="KykyAI Logo"
                   width={170}
                   height={42}
@@ -32,11 +36,11 @@ export function Footer() {
             <div id="footer-contact-info" className="space-y-3">
               <div id="footer-phone" className="flex items-center space-x-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>13564339979 陶女士</span>
+                <span>{t("footer.phone")}</span>
               </div>
               <div id="footer-email" className="flex items-center space-x-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>taoyangyang@kykyai.com</span>
+                <span>{t("footer.email")}</span>
               </div>
             </div>
           </div>
@@ -50,29 +54,29 @@ export function Footer() {
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-medium text-white">{t("footer.addresses.shenzhen")}</div>
-                  <div>深圳市龙岗区龙城街道黄阁坑社区龙城工业园1号</div>
+                  <div>{t("footer.addresses.shenzhenDetail")}</div>
                 </div>
               </li>
               <li id="footer-nanchang-office" className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-medium text-white">{t("footer.addresses.nanchang")}</div>
-                  <div>江西省南昌市红谷滩区红谷中大道1619号</div>
-                  <div>南昌国际金融大厦1116-1118室</div>
+                  <div>{t("footer.addresses.nanchangDetail1")}</div>
+                  <div>{t("footer.addresses.nanchangDetail2")}</div>
                 </div>
               </li>
-              <li id="footer-hangzhou-office" className="flex items-start space-x-2">
+              <li id="footer-shanghai-office" className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-medium text-white">{t("footer.addresses.shanghai")}</div>
-                  <div>上海市静安区恒丰路666号苏河壹号</div>
+                  <div>{t("footer.addresses.shanghaiDetail")}</div>
                 </div>
               </li>
               <li id="footer-hangzhou-office" className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="font-medium text-white">{t("footer.addresses.hangzhou")}</div>
-                  <div>余杭区天目山路2988号</div>
+                  <div>{t("footer.addresses.hangzhouDetail")}</div>
                 </div>
               </li>
             </ul>
@@ -120,7 +124,7 @@ export function Footer() {
         <div id="footer-copyright" className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
           <div className="flex items-center justify-center space-x-2 mb-2">
             <span>&copy; 2024</span>
-            <span>深圳快语科技有限公司</span>
+            <span>{t("footer.company")}</span>
             <span>{t("footer.copyright")}.</span>
           </div>
           <p id="footer-icp" className="mt-2">
