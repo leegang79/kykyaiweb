@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   description:
     "Experience the future of AI-driven content creation with seamless virtual interactions. Transform your ideas into reality with our intelligent platform.",
   generator: "v0.app",
+  icons: {
+    icon: [
+      { url: '/ico.png', sizes: 'any', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/ico.png', sizes: '180x180', type: 'image/png' },
+    ],
 }
 
 export default function RootLayout({
