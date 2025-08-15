@@ -146,8 +146,8 @@ export function CustomersShowcaseSection() {
                   >
                     <div className="text-center text-white">
                       <Landmark className="w-16 h-16 mx-auto mb-4" />
-                      <h3 className="text-2xl font-bold">{t("customers.tengwangge_location")}</h3>
-                      <p className="text-orange-100 mt-2">{t("customers.nanchang_location")}</p>
+                      <h3 className="text-2xl font-bold">{t("locations.tengwangge_scenic")}</h3>
+                      <p className="text-orange-100 mt-2">{t("locations.nanchang_jiangxi")}</p>
                     </div>
                   </div>
                   <div className="absolute top-4 left-4   mt-[-24px]">
@@ -196,8 +196,8 @@ export function CustomersShowcaseSection() {
                   >
                     <div className="text-center text-white">
                       <MapPin className="w-16 h-16 mx-auto mb-4" />
-                      <h3 className="text-2xl font-bold">{t("customers.jinggangshan_location")}</h3>
-                      <p className="text-red-100 mt-2">{t("customers.jian_location")}</p>
+                      <h3 className="text-2xl font-bold">{t("locations.jinggangshan_scenic")}</h3>
+                      <p className="text-red-100 mt-2">{t("locations.jian_jiangxi")}</p>
                     </div>
                   </div>
                   <div className="absolute top-4 left-4   mt-[-24px]">

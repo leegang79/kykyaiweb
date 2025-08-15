@@ -173,7 +173,8 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.shenzhen_hq")}</h3>
-                      <p className="text-gray-600">{t("footer.addresses.shenzhenDetail")}</p>
+                      <p className="text-gray-600">深圳市龙岗区龙城街道黄阁坑社区</p>
+                      <p className="text-gray-600">龙城工业园1号</p>
                     </div>
                   </div>
                 </Card>
@@ -185,8 +186,8 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.nanchang_center")}</h3>
-                      <p className="text-gray-600">{t("footer.addresses.nanchangDetail1")}</p>
-                      <p className="text-gray-600">{t("footer.addresses.nanchangDetail2")}</p>
+                      <p className="text-gray-600">江西省南昌市红谷滩区红谷中大道1619号</p>
+                      <p className="text-gray-600">南昌国际金融大厦1116-1118室</p>
                     </div>
                   </div>
                 </Card>
@@ -198,7 +199,7 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.shanghai_office")}</h3>
-                      <p className="text-gray-600">{t("footer.addresses.shanghaiDetail")}</p>
+                      <p className="text-gray-600">上海市静安区恒丰路666号苏河壹号</p>
                     </div>
                   </div>
                 </Card>
@@ -210,7 +211,7 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.hangzhou_office")}</h3>
-                      <p className="text-gray-600">{t("footer.addresses.hangzhouDetail")}</p>
+                      <p className="text-gray-600">余杭区天目山路2988号</p>
                     </div>
                   </div>
                 </Card>
@@ -222,7 +223,7 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.phone_title")}</h3>
-                      <p className="text-gray-600">{t("footer.phone")}</p>
+                      <p className="text-gray-600">13564339979 陶女士</p>
                       <p className="text-gray-600 text-sm">{t("contact.info.phone_hours")}</p>
                     </div>
                   </div>
@@ -235,7 +236,7 @@ export function ContactFormSection() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">{t("contact.info.email_title")}</h3>
-                      <p className="text-gray-600">{t("footer.email")}</p>
+                      <p className="text-gray-600">taoyangyang@kykyai.com</p>
                     </div>
                   </div>
                 </Card>

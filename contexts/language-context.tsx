@@ -158,6 +158,11 @@ const translations = {
     "products.lushi.media_title": "律时项目被各大媒体报道",
 
     // Customers Section
+    "customers.hero.badge": "优质客户",
+    "customers.hero.title1": "服务全球",
+    "customers.hero.title2": "值得信赖的合作伙伴",
+    "customers.hero.description":
+      "快语科技致力于为各行各业提供优质的AI解决方案，我们的客户遍布文旅、教育、企业服务等多个领域",
     "customers.main_title": "我们的客户",
     "customers.intro_text":
       "快语科技致力于为各行各业提供优质的AI解决方案，我们的客户遍布文旅、教育、企业服务等多个领域",
@@ -182,14 +187,228 @@ const translations = {
     "customers.projects_label": "部署项目",
     "customers.satisfaction_label": "客户满意度",
     "customers.awards_label": "行业奖项",
-    "customers.hero.badge": "客户案例",
-    "customers.hero.title1": "服务全球客户",
-    "customers.hero.title2": "创造卓越价值",
-    "customers.hero.description": "我们为各行各业的客户提供专业的AI解决方案，助力企业数字化转型升级",
-    "customers.tengwangge_location": "滕王阁景区",
-    "customers.nanchang_location": "江西南昌",
-    "customers.jinggangshan_location": "井冈山景区",
-    "customers.jian_location": "江西吉安",
+
+    // Location names
+    "locations.tengwangge_scenic": "滕王阁景区",
+    "locations.nanchang_jiangxi": "江西南昌",
+    "locations.jinggangshan_scenic": "井冈山景区",
+    "locations.jian_jiangxi": "江西吉安",
+
+    // Partners Section
+    "partners.categories_title": "合作伙伴类型",
+    "partners.tech_partners_title": "技术合作伙伴",
+    "partners.tech_partners_description": "与AI芯片、云计算、大数据等技术厂商深度合作",
+    "partners.industry_partners_title": "行业合作伙伴",
+    "partners.industry_partners_description": "与文旅、教育、企业服务等行业龙头企业合作",
+    "partners.channel_partners_title": "渠道合作伙伴",
+    "partners.channel_partners_description": "与系统集成商、代理商建立广泛的销售网络",
+    "partners.strategic_title": "战略合作伙伴",
+    "partners.cloud_service_title": "云端AI服务",
+    "partners.cloud_service_description":
+      "与主流云计算服务商合作，为客户提供稳定可靠的云端AI服务，支持弹性扩展和全球部署。",
+    "partners.data_service_title": "数据资源整合",
+    "partners.data_service_description": "与专业数据服务商合作，获取高质量的训练数据，不断优化AI模型的性能和准确性。",
+    "partners.benefits_title": "合作优势",
+    "partners.tech_complement_title": "技术互补",
+    "partners.tech_complement_description": "结合各方技术优势，提供更完整的解决方案",
+    "partners.market_expansion_title": "市场拓展",
+    "partners.market_expansion_description": "共享渠道资源，快速扩大市场覆盖范围",
+    "partners.cost_optimization_title": "成本优化",
+    "partners.cost_optimization_description": "通过合作降低研发和运营成本",
+    "partners.risk_sharing_title": "风险共担",
+    "partners.risk_sharing_description": "分散技术和市场风险，提高成功率",
+    "partners.innovation_acceleration_title": "创新加速",
+    "partners.innovation_acceleration_description": "加快产品迭代和技术创新速度",
+    "partners.ecosystem_building_title": "生态共建",
+    "partners.ecosystem_building_description": "构建健康的AI产业生态系统",
+    "partners.cta_title": "成为我们的合作伙伴",
+    "partners.cta_description": "如果您有意与我们建立合作关系，欢迎联系我们探讨合作机会",
+    "partners.cta_button": "联系合作",
+    
+    // Partner types
+    "partners.cloud_service_provider": "云计算服务商",
+    "partners.infrastructure_cooperation": "基础设施合作",
+    "partners.data_service_provider": "数据服务商",
+    "partners.data_resource_cooperation": "数据资源合作",
+
+    // Footer
+    "footer.company": "深圳快语科技有限公司",
+    "footer.description": "通过智能化内容生成和虚拟人实时交互，为用户提供创新的AI解决方案。",
+    "footer.links": "公司",
+    "footer.contact": "联系方式",
+    "footer.copyright": "保留所有权利",
+    "footer.icp": "粤ICP备2022083001号-1",
+    "footer.phone": "13564339979 陶女士",
+    "footer.email": "taoyangyang@kykyai.com",
+    "footer.languageLabel": "语言 / Language:",
+    "footer.addresses.title": "办公地址",
+    "footer.addresses.shenzhen": "深圳总部",
+    "footer.addresses.shenzhenDetail": "深圳市龙岗区龙城街道黄阁坑社区龙城工业园1号",
+    "footer.addresses.nanchang": "南昌运营研发中心",
+    "footer.addresses.nanchangDetail1": "江西省南昌市红谷滩区红谷中大道1619号",
+    "footer.addresses.nanchangDetail2": "南昌国际金融大厦1116-1118室",
+    "footer.addresses.shanghai": "上海办事处",
+    "footer.addresses.shanghaiDetail": "上海市静安区恒丰路666号苏河壹号",
+    "footer.addresses.hangzhou": "杭州办事处",
+    "footer.addresses.hangzhouDetail": "余杭区天目山路2988号",
+    "footer.nav.about": "关于我们",
+    "footer.nav.products": "产品展示",
+    "footer.nav.technology": "技术平台",
+    "footer.nav.customers": "我们的客户",
+    "footer.nav.partners": "合作伙伴",
+    "footer.nav.contact": "联系我们",
+
+    // Badges
+    "badges.5a_scenic": "5A级景区",
+    "badges.revolutionary_site": "革命圣地",
+    "badges.multilingual": "多语言支持",
+    "badges.cultural_heritage": "文化传承",
+    "badges.smart_interaction": "智能交互",
+    "badges.red_education": "红色教育",
+    "badges.heritage_preservation": "历史传承",
+    "badges.patriotism": "爱国主义",
+    "badges.tech_cooperation": "技术合作",
+    "badges.data_cooperation": "数据合作",
+    "badges.cloud_deployment": "云端部署",
+    "badges.elastic_scaling": "弹性扩展",
+    "badges.global_service": "全球服务",
+    "badges.data_quality": "数据质量",
+    "badges.model_optimization": "模型优化",
+    "badges.continuous_improvement": "持续改进",
+
+    // Common
+    "common.learn_more": "了解更多",
+    "common.contact_us": "联系我们",
+    "common.view_details": "查看详情",
+
+    // Contact Form
+    "contact.form.title": "联系我们",
+    "contact.form.subtitle": "请填写以下表单，我们会在24小时内回复您。",
+    "contact.form.name": "姓名",
+    "contact.form.name_placeholder": "请输入您的姓名",
+    "contact.form.email": "邮箱",
+    "contact.form.email_placeholder": "请输入您的邮箱",
+    "contact.form.company": "公司名称",
+    "contact.form.company_placeholder": "请输入公司名称",
+    "contact.form.phone": "联系电话",
+    "contact.form.phone_placeholder": "请输入联系电话",
+    "contact.form.subject": "主题",
+    "contact.form.subject_placeholder": "请输入咨询主题",
+    "contact.form.message": "详细信息",
+    "contact.form.message_placeholder": "请详细描述您的需求或问题...",
+    "contact.form.submit": "发送消息",
+    "contact.form.required": "*",
+
+    // Contact Information
+    "contact.info.title": "联系信息",
+    "contact.info.description":
+      "快语科技致力于为客户提供专业的AI解决方案。我们的团队随时准备为您提供技术支持和商务咨询。",
+    "contact.info.shenzhen_hq": "深圳总部",
+    "contact.info.nanchang_center": "南昌运营研发中心",
+    "contact.info.shanghai_office": "上海办事处",
+    "contact.info.hangzhou_office": "杭州办事处",
+    "contact.info.phone_title": "联系电话",
+    "contact.info.phone_hours": "工作日 9:00-18:00",
+    "contact.info.email_title": "电子邮箱",
+    "contact.info.hours_title": "工作时间",
+    "contact.info.weekdays": "周一至周五：9:00 - 18:00",
+    "contact.info.saturday": "周六：10:00 - 16:00",
+
+    // Business Areas
+    "contact.business.title": "业务领域",
+    "contact.business.ai_guide": "AI导游系统",
+    "contact.business.virtual_human": "虚拟人交互",
+    "contact.business.content_generation": "智能内容生成",
+    "contact.business.tech_consulting": "技术咨询",
+    "contact.business.custom_development": "定制开发",
+    "contact.business.system_integration": "系统集成",
+
+    // CTA Section
+    "cta.title": "准备开始了吗？",
+    "cta.subtitle": "加入AI革命，立即体验智能化内容生成的强大功能",
+    "cta.free_trial": "免费试用",
+    "cta.contact_sales": "联系销售",
+
+    // Header
+    "header.company_name": "快语科技",
+    "header.products": "产品展示",
+    "header.technology": "技术平台",
+    "header.contact": "联系我们",
+    "header.login": "登录",
+    "header.start_experience": "开始体验",
+
+    // Vision Strategy Section
+    "vision.title": "我们的愿景与战略",
+    "vision.description":
+      "我们是一家高速成长的人工智能科技公司，总部位于深圳，在南昌设有研发中心，在上海、杭州设有办事处。快语科技专注于应用人工智能赋能在文旅产业的应用和研发，业务覆盖众多国内5A级景区、一级博物馆。",
+    "vision.vision_title": "愿景",
+    "vision.vision_description": "通过人工智能技术创新推动文旅产业升级，为游客提供更智能、更个性化的文化旅游体验！",
+    "vision.strategy_title": "战略",
+    "vision.strategy_description":
+      "专注于文旅产业AI应用，与国内5A级景区和一级博物馆深度合作，运用全球领先的人工智能技术，打造智能导游、虚拟讲解等创新产品，推动传统文旅产业的数字化转型升级。",
+    "vision.datasets_title": "专业数据集构建",
+    "vision.datasets_description":
+      "基于文旅产业的深度研究，快语科技针对不同的文化旅游应用场景，构建了多个专业数据集，为AI模型训练和优化提供高质量的数据支撑：",
+    "vision.children_books": "儿童图书数据集",
+    "vision.children_stories": "儿童故事数据集",
+    "vision.psychology_consultation": "心理咨询对话",
+    "vision.psychology_symptoms": "心理疾病和症状",
+    "vision.treasure_hunt_images": "大中华寻宝记图像",
+    "vision.cartoon_images": "二次元卡通人物图像",
+
+    // Company Values
+    "company.values.title": "核心价值",
+    "company.values.innovation_title": "创新驱动",
+    "company.values.innovation_description": "持续探索AI技术前沿，为用户带来突破性的智能体验",
+    "company.values.user_first_title": "用户至上",
+    "company.values.user_first_description": "以用户需求为中心，提供简单易用的智能化解决方案",
+    "company.values.quality_title": "品质保证",
+    "company.values.quality_description": "严格的质量标准，确保每一个产品都达到行业领先水平",
+
+    // Technology Platform
+    "tech.hero.badge": "技术平台",
+    "tech.hero.title1": "智能内容生成",
+    "tech.hero.title2": "虚拟人实时交互",
+    "tech.hero.description":
+      "基于先进的人工智能技术，我们构建了两大核心技术平台：智能内容生成平台和虚拟人实时交互平台，为各行业提供强大的AI技术支撑。",
+
+    // Content Platform
+    "tech.content_platform_title": "智能内容生成平台",
+    "tech.content_platform_description":
+      "基于大语言模型的智能内容生成技术，为文旅、教育等行业提供个性化、高质量的内容创作服务。",
+    "tech.core_features": "核心功能",
+    "tech.content_features.text_generation": "智能文本生成",
+    "tech.content_features.translation": "多语言翻译",
+    "tech.content_features.recommendation": "个性化推荐",
+    "tech.content_features.quality_assessment": "内容质量评估",
+    "tech.tech_features": "技术特性",
+    "tech.content_badges.large_data": "大数据训练",
+    "tech.content_badges.realtime": "实时生成",
+    "tech.content_badges.customizable": "可定制化",
+    "tech.learn_more": "了解更多",
+
+    // Virtual Human Platform
+    "tech.virtual_human_title": "虚拟人实时交互平台",
+    "tech.virtual_human_description": "结合计算机视觉、语音识别和自然语言处理技术，打造栩栩如生的虚拟人交互体验。",
+    "tech.virtual_features.voice_dialogue": "语音对话交互",
+    "tech.virtual_features.expression_generation": "表情动作生成",
+    "tech.virtual_features.emotion_recognition": "情感识别分析",
+    "tech.virtual_features.multi_scenario": "多场景适配",
+    "tech.virtual_badges.voice_recognition": "语音识别",
+    "tech.virtual_badges.realtime_rendering": "实时渲染",
+    "tech.virtual_badges.natural_dialogue": "自然对话",
+    "tech.experience_demo": "体验演示",
+
+    // Platform Integration
+    "tech.integration_title": "平台整合应用",
+    "tech.integration_description":
+      "两大技术平台深度融合，为客户提供完整的AI解决方案，实现智能化内容生成与虚拟人交互的无缝结合。",
+    "tech.integration_content_title": "内容智能化",
+    "tech.integration_content_description": "自动生成高质量的讲解内容、教学材料和互动脚本",
+    "tech.integration_personalization_title": "个性化体验",
+    "tech.integration_personalization_description": "根据用户偏好和行为数据，提供定制化的交互体验",
+    "tech.integration_deployment_title": "快速部署",
+    "tech.integration_deployment_description": "支持云端部署和本地化部署，快速集成到现有系统中",
   },
   en: {
     // Navigation
@@ -276,16 +495,6 @@ const translations = {
     "products.lushi.assistant_badge": "Virtual Assistant",
     "products.lushi.demo_btn": "Watch Demo",
     "products.lushi.media_title": "Lushi Project Media Coverage",
-    "products.lushi.media.legal_daily.name": "Legal Daily",
-    "products.lushi.media.legal_daily.description": "AI Assists Lawyer Time Management Innovation",
-    "products.lushi.media.china_lawyer.name": "China Lawyer",
-    "products.lushi.media.china_lawyer.description": "Virtual Assistant Improves Lawyer Efficiency",
-    "products.lushi.media.jiangxi_legal.name": "Jiangxi Legal News",
-    "products.lushi.media.jiangxi_legal.description": "Local Tech Empowers Legal Services",
-    "products.lushi.media.shenzhen_daily.name": "Shenzhen Special Zone Daily",
-    "products.lushi.media.shenzhen_daily.description": "Smart Office New Trends",
-    "products.lushi.media.nanchang_daily.name": "Nanchang Daily",
-    "products.lushi.media.nanchang_daily.description": "AI Technology Assists Professional Service Upgrade",
 
     "products.reading.title": '"21st Century Smart Reading" Product',
     "products.reading.description": "Intelligent reading assistance system enhancing learning experience.",
@@ -339,6 +548,11 @@ const translations = {
     "products.lushi.media_title": "Lushi Project Media Coverage",
 
     // Customers Section
+    "customers.hero.badge": "Valued Clients",
+    "customers.hero.title1": "Serving Globally",
+    "customers.hero.title2": "Trusted Partners",
+    "customers.hero.description":
+      "KykyAI is committed to providing high-quality AI solutions across industries. Our clients span cultural tourism, education, enterprise services, and many other sectors.",
     "customers.main_title": "Our Customers",
     "customers.intro_text":
       "KykyAI is committed to providing high-quality AI solutions for various industries. Our customers span across cultural tourism, education, enterprise services, and many other fields",
@@ -358,7 +572,7 @@ const translations = {
     "customers.featured_clients_title": "Featured Client Cases",
     "customers.tengwangge_client_title": "AI Tour Guide System",
     "customers.tengwangge_client_description":
-      "Deployed intelligent tour guide system for Tengwangge scenic area, combining historical and cultural background to provide immersive touring experiences for visitors. The system supports multilingual commentary and significantly improves visitor satisfaction.",
+      "Deployed intelligent tour guide system for Tengwangge Scenic Area, combining historical and cultural background to provide immersive touring experiences for visitors. The system supports multilingual commentary and significantly improves visitor satisfaction.",
     "customers.jinggangshan_client_title": "Red Education AI System",
     "customers.jinggangshan_client_description":
       "AI tour guide system specially designed for the revolutionary holy land Jinggangshan, deeply exploring red cultural connotations to provide vivid revolutionary history educational experiences for visitors.",
@@ -367,70 +581,67 @@ const translations = {
     "customers.projects_label": "Projects Deployed",
     "customers.satisfaction_label": "Customer Satisfaction",
     "customers.awards_label": "Industry Awards",
-    "customers.hero.badge": "Client Success Stories",
-    "customers.hero.title1": "Serving Global Clients",
-    "customers.hero.title2": "Creating Exceptional Value",
-    "customers.hero.description":
-      "We provide professional AI solutions for clients across various industries, empowering digital transformation and business growth",
-    "customers.tengwangge_location": "Tengwangge Scenic Area",
-    "customers.nanchang_location": "Nanchang, Jiangxi",
-    "customers.jinggangshan_location": "Jinggangshan Scenic Area",
-    "customers.jian_location": "Ji'an, Jiangxi",
+
+    // Location names
+    "locations.tengwangge_scenic": "Tengwangge Scenic Area",
+    "locations.nanchang_jiangxi": "Nanchang, Jiangxi",
+    "locations.jinggangshan_scenic": "Jinggangshan Scenic Area",
+    "locations.jian_jiangxi": "Ji'an, Jiangxi",
 
     // Partners Section
+    "partners.hero.badge": "Strategic Partnerships",
+    "partners.hero.title1": "Building Together",
+    "partners.hero.title2": "Ecosystem of Innovation",
+    "partners.hero.description":
+      "We collaborate with leading technology companies, industry partners, and channel distributors to create comprehensive AI solutions and expand market reach across multiple sectors.",
     "partners.categories_title": "Partner Categories",
     "partners.tech_partners_title": "Technology Partners",
     "partners.tech_partners_description":
-      "Deep cooperation with AI chip, cloud computing, and big data technology vendors",
+      "Deep cooperation with AI chip manufacturers, cloud computing providers, and big data technology vendors to enhance our technical capabilities",
     "partners.industry_partners_title": "Industry Partners",
     "partners.industry_partners_description":
-      "Cooperation with leading enterprises in cultural tourism, education, enterprise services, and other industries",
+      "Strategic alliances with leading enterprises in cultural tourism, education, enterprise services, and other key industries",
     "partners.channel_partners_title": "Channel Partners",
     "partners.channel_partners_description":
-      "Establishing extensive sales networks with system integrators and distributors",
-    "partners.strategic_title": "Strategic Partners",
+      "Establishing extensive sales networks with system integrators, distributors, and regional partners for market expansion",
+    "partners.strategic_title": "Strategic Partnerships",
     "partners.cloud_service_title": "Cloud AI Services",
     "partners.cloud_service_description":
-      "Cooperating with mainstream cloud computing service providers to offer stable and reliable cloud AI services for customers, supporting elastic scaling and global deployment.",
+      "Partnering with leading cloud computing service providers to deliver stable, reliable cloud-based AI services with elastic scaling and global deployment capabilities.",
     "partners.data_service_title": "Data Resource Integration",
     "partners.data_service_description":
-      "Cooperating with professional data service providers to obtain high-quality training data and continuously optimize AI model performance and accuracy.",
+      "Collaborating with professional data service providers to access high-quality training datasets and continuously optimize AI model performance and accuracy.",
     "partners.benefits_title": "Partnership Advantages",
     "partners.tech_complement_title": "Technology Complementarity",
     "partners.tech_complement_description":
-      "Combining technological advantages of all parties to provide more complete solutions",
+      "Combining technological strengths from all parties to deliver more comprehensive and robust solutions",
     "partners.market_expansion_title": "Market Expansion",
-    "partners.market_expansion_description": "Sharing channel resources to rapidly expand market coverage",
+    "partners.market_expansion_description":
+      "Sharing channel resources and expertise to rapidly expand market coverage and reach",
     "partners.cost_optimization_title": "Cost Optimization",
-    "partners.cost_optimization_description": "Reducing R&D and operational costs through cooperation",
+    "partners.cost_optimization_description":
+      "Reducing research & development and operational costs through strategic cooperation",
     "partners.risk_sharing_title": "Risk Sharing",
-    "partners.risk_sharing_description": "Dispersing technical and market risks to improve success rates",
+    "partners.risk_sharing_description":
+      "Distributing technical and market risks across partners to improve overall success rates",
     "partners.innovation_acceleration_title": "Innovation Acceleration",
-    "partners.innovation_acceleration_description": "Accelerating product iteration and technological innovation",
+    "partners.innovation_acceleration_description":
+      "Accelerating product iteration cycles and technological innovation through collaborative R&D",
     "partners.ecosystem_building_title": "Ecosystem Building",
-    "partners.ecosystem_building_description": "Building a healthy AI industry ecosystem",
+    "partners.ecosystem_building_description":
+      "Constructing a healthy, sustainable AI industry ecosystem for long-term growth",
     "partners.cta_title": "Become Our Partner",
     "partners.cta_description":
-      "If you are interested in establishing a partnership with us, please contact us to explore cooperation opportunities",
+      "If you are interested in establishing a strategic partnership with us, please contact us to explore collaboration opportunities and mutual growth",
     "partners.cta_button": "Contact for Partnership",
-    "partners.hero.badge": "Strategic Partnerships",
-    "partners.hero.title1": "Building Ecosystem",
-    "partners.hero.title2": "Together We Grow",
-    "partners.hero.description":
-      "We collaborate with leading technology companies, industry partners, and service providers to deliver comprehensive AI solutions and expand market reach",
-    "partners.cloud_service_provider": "Cloud Computing Service Providers",
+
+    // Partner types
+    "partners.cloud_service_provider": "Cloud Computing Service Provider",
     "partners.infrastructure_cooperation": "Infrastructure Partnership",
-    "partners.data_service_provider": "Data Service Providers",
+    "partners.data_service_provider": "Data Service Provider",
     "partners.data_resource_cooperation": "Data Resource Partnership",
 
-    // Contact form - Complete translations
-    "contact.hero.badge": "Get In Touch",
-    "contact.hero.title1": "Ready to Transform",
-    "contact.hero.title2": "Your Business with AI?",
-    "contact.hero.description":
-      "Contact our team to discuss how KykyAI can help accelerate your digital transformation journey",
-
-    // Footer
+// Footer
     "footer.company": "Shenzhen KykyAI Technology Co., Ltd.",
     "footer.description":
       "Providing innovative AI solutions through intelligent content generation and real-time virtual human interaction.",
@@ -483,29 +694,37 @@ const translations = {
     "common.view_details": "View Details",
 
     // Contact Form
-    "contact.form.title": "Contact Us",
+    "contact.hero.badge": "Get in Touch",
+    "contact.hero.title1": "Contact Us",
+    "contact.hero.title2": "Let's Build Together",
+    "contact.hero.description":
+      "Ready to transform your business with AI? Our team of experts is here to help you explore innovative solutions and answer any questions you may have.",
+    "contact.form.title": "Send us a Message",
     "contact.form.subtitle": "Please fill out the form below and we will get back to you within 24 hours.",
-    "contact.form.name": "Name",
-    "contact.form.name_placeholder": "Please enter your name",
-    "contact.form.email": "Email",
-    "contact.form.email_placeholder": "Please enter your email",
+    "contact.form.name": "Full Name",
+    "contact.form.name_placeholder": "Enter your full name",
+    "contact.form.email": "Email Address",
+    "contact.form.email_placeholder": "Enter your email address",
     "contact.form.company": "Company Name",
-    "contact.form.company_placeholder": "Please enter company name",
-    "contact.form.phone": "Phone",
-    "contact.form.phone_placeholder": "Please enter phone number",
+    "contact.form.company_placeholder": "Enter your company name",
+    "contact.form.phone": "Phone Number",
+    "contact.form.phone_placeholder": "Enter your phone number",
     "contact.form.subject": "Subject",
-    "contact.form.subject_placeholder": "Please enter inquiry subject",
+    "contact.form.subject_placeholder": "Enter inquiry subject",
     "contact.form.message": "Message",
     "contact.form.message_placeholder": "Please describe your requirements or questions in detail...",
     "contact.form.submit": "Send Message",
     "contact.form.required": "*",
+    "contact.form.sending": "Sending...",
+    "contact.form.success": "Message sent successfully! We'll get back to you soon.",
+    "contact.form.error": "Failed to send message. Please try again.",
 
     // Contact Information
     "contact.info.title": "Contact Information",
     "contact.info.description":
       "KykyAI is committed to providing professional AI solutions for customers. Our team is ready to provide technical support and business consultation at any time.",
     "contact.info.shenzhen_hq": "Shenzhen Headquarters",
-    "contact.info.nanchang_center": "Nanchang Operations Center",
+    "contact.info.nanchang_center": "Nanchang Operations & R&D Center",
     "contact.info.shanghai_office": "Shanghai Office",
     "contact.info.hangzhou_office": "Hangzhou Office",
     "contact.info.phone_title": "Phone",
