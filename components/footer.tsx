@@ -14,7 +14,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div id="footer-company-info" className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="relative w-[170] h-[42] bg-white border-0 px-[5px] py-[5x] pt-2.5 pb-2 pl-2 pr-2 rounded-sm">
+              <div className="relative w-[186] h-[60] bg-white border-0 px-[5px] py-[5x] pt-2.5 pb-2 pl-2 pr-2 rounded-sm">
                 <Image
                   id="footer-logo"
                   src={

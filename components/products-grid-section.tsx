@@ -102,7 +102,7 @@ export function ProductsGridSection() {
                 {/* Tengwangge Media Coverage Section */}
                 <div
                   id="tengwangge-media-coverage"
-                  className="mt-12 bg-gradient-to-r from-slate-50 to-slate-100 rounded-2xl p-8 w-full"
+                  className="p-8 w-full"
                 >
                   <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">
                     {t("products.tengwangge.media_title")}
@@ -401,11 +401,11 @@ export function ProductsGridSection() {
                     <Play className="w-4 h-4 mr-2" />
                     {t("products.lushi.demo_btn")}
                   </Button>
-
-                  {/* Lushi Media Coverage Section */}
+                </CardHeader>
+                {/* Lushi Media Coverage Section */}
                   <div
                     id="lushi-media-coverage"
-                    className="mt-12 bg-gradient-to-r from-slate-50 to-slate-100 rounded-2xl p-8"
+                    className="p-8 w-full"
                   >
                     <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">
                       {t("products.lushi.media_title")}
@@ -521,7 +521,6 @@ export function ProductsGridSection() {
                       </div>
                     </div>
                   </div>
-                </CardHeader>
               </Card>
             </div>
           </div>
